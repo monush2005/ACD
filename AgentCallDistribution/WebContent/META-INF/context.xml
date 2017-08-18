@@ -1,0 +1,9 @@
+<Context antiJARLocking="true">
+
+	<Resource password="1e8e4a48ea13b7a6283b091fc870e884" username="3b0394aa9155bdd1e50a8bc0477766c2"
+		factory="com.spice.utility.EncryptedDataSourceFactory"
+		url="jdbc:postgresql://10.247.74.23:5433/customercare_chat" maxWait="1"
+		maxIdle="10" maxActive="30" driverClassName="org.postgresql.Driver"
+		type="javax.sql.DataSource" auth="Container" name="jdbc/dbDataSource" />
+</Context>
+          
