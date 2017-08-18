@@ -12,10 +12,10 @@ import java.net.URLDecoder;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.Map.Entry;// $p!c#vpnm0h@l!@w$r
 
-import org.apache.commons.io.FileUtils;
+//import org.apache.commons.io.FileUtils;
 
 
 	public class MIS {
@@ -29,11 +29,11 @@ import org.apache.commons.io.FileUtils;
 	        try {
 	        for (File f : files) {
 	            if(f.isFile()) {
-	            	System.out.println("------"+f.getName());
+	            	System.out.println("------"+f.getName() +"-- Hello");
 	                BufferedReader inputStream = null;
 
-	                
-	                	List<String> lines = FileUtils.readLines(f);
+	                ArrayList<String> a1=new 	  ArrayList();
+	                List<String> lines =a1;// new ArrayList();//FileUtils.readLines(f);
 	                	int count=0;
 	                	
 	                	for (String line : lines) 
