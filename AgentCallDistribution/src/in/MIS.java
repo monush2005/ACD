@@ -29,7 +29,7 @@ import java.util.Map.Entry;// $p!c#vpnm0h@l!@w$r
 	        try {
 	        for (File f : files) {
 	            if(f.isFile()) {
-	            	System.out.println("------"+f.getName() +"-- Hello");
+	            	System.out.println("------"+f.getName() +"-- Hello----            "+", hello ----- s");
 	                BufferedReader inputStream = null;
 
 	                ArrayList<String> a1=new 	  ArrayList();
